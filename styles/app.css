@@ -1,0 +1,190 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+:root {
+    --primary-color: #27ae60;
+    --secondary-color: #2ecc71;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "poppins";
+    line-height: 1.6;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+/* 
+Nav
+*/
+
+.header {
+    background: url(../images/main.jpg);
+    min-height: 45rem;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 1rem;
+}
+/* .header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #00000091, #00000091);
+    opacity: 0.6;
+} */
+.desktop-menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav__basket--mobile {
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 5rem;
+}
+.nav__hamburger {
+    cursor: pointer;
+}
+.nav__logo {
+    font-size: 3rem;
+    font-family: "poppins bold";
+}
+.menu {
+    /* display: none; */
+}
+.menu--desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 2rem;
+}
+.menu--desktop > .menu__item > .nav__link {
+    color: black;
+}
+.menu--mobile {
+    position: absolute;
+    /* top: 5.5rem; */
+    top: -20rem;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 150ms ease-in;
+}
+.menu--mobile .menu__item {
+}
+.menu__item {
+}
+.nav__link {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.nav__basket {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav__price {
+}
+.nav__count {
+}
+.nav__profile {
+}
+
+/* 
+Header Content
+*/
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__welcome {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+}
+.header__title {
+    font-size: 4rem;
+    font-family: "poppins light";
+    margin-bottom: 3rem;
+}
+.btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.header__link {
+}
+
+/* 
+Main
+*/
+.main {
+    text-align: center;
+    padding-top: 4rem;
+}
+.main__top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.main__title {
+    font-size: 3rem;
+}
+.main__link {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Product(s) */
+.products {
+    margin-top: 4rem;
+}
+.product {
+    
+    margin-bottom: 1rem;
+}
+.product__img-container {
+    width: 100%;
+}
+.product__img {
+    width: 100%;
+}
+.products__stars {
+}
+.product__title {
+}
+.product__category {
+}
+.product__price {
+}

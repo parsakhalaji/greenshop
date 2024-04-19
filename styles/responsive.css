@@ -1,0 +1,42 @@
+@media screen and (max-width: px) {
+
+}
+@media screen and (min-width: 576px) {
+    .main__top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 768px) {
+    .nav__hamburger {
+        display: none;
+    }
+    .desktop-menu {
+        display: flex;
+    }
+    .nav__basket--mobile {
+        display: none;
+    }
+    
+    
+}
+@media screen and (min-width: 992px) {
+    .header {
+        height: 100vh;
+    }
+    .header__content {
+        padding-top: 15rem;
+    }
+    .header__title {
+        font-size: 5rem;
+    }
+    .header__welcome {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
+}
+@media screen and (min-width: 1400px) {
+    
+}
